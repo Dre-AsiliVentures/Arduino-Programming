@@ -1,6 +1,8 @@
-
-#include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x27,16,2);
+// This is the first Compiled Sensor testing code that notifies the user to Irrigate using the indicator LEDs
+// The Sensors are of the three levels; Temperature/Humidity, Moisture and Light.
+// Last updated 3/01/2022
+// Retrieved from https://github.com/ElectronicsDr/Arduino-Programming/tree/master/All%20Arduino%20Projects/FYR%2007%20Industrial%20Irrigation/Compiled_Sensor_Testing_v1.0
+//Author: Andrew Mwendwa (Dr_Dre) - The Electronics Dr
 //Temperature measurement
 #include <dht.h>
 #define dht_apin A2 // Analog Pin sensor is connected to
